@@ -2,6 +2,7 @@
 // @name     uvoter
 // @version  1
 // @grant    none
+// @include  https://www.mikrocontroller.net/topic/*
 // ==/UserScript==
 
 function getHTTP(url) {
@@ -18,3 +19,4 @@ Array.prototype.forEach.call(els, function(el) {
 		getHTTP(el.href);
 	}
 });
+
