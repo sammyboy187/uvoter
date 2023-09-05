@@ -11,12 +11,13 @@ function getHTTP(url) {
 	xmlHttp.send( null );
 }
 
-var els = document.getElementsByClassName("up");
+window.addEventListener('load', function() {
+	var els = document.getElementsByClassName("up");
 
-Array.prototype.forEach.call(els, function(el) {
-	if (!el.classList.contains("active")) {
-		el.classList.add("active");
-		getHTTP(el.href);
-	}
-});
-
+  Array.prototype.forEach.call(els, function(el) {
+    if (!el.classList.contains("active")) {
+      el.classList.add("active");
+      getHTTP(el.href);
+    }
+  });
+}, false);
