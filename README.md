@@ -1,4 +1,4 @@
-# uvoter
+# µvoter
 Ein tool um Downvotekontingent auf mikrocontroller.net zu bekommen. Das passiert indem (alte) Beiträge hochgevotet werden.
 
 ## uvoter.py
