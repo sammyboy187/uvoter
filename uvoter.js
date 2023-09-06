@@ -15,7 +15,12 @@ window.addEventListener('load', function() {
 	var els = document.getElementsByClassName("up");
 
   Array.prototype.forEach.call(els, function(el) {
-    if (!el.classList.contains("active")) {
+    
+    var parent = el.parentElement;
+    down = parent.getElementsByClassName("down")[0];
+    
+    if (down.classList.contains("active")) {
+    } else if (!el.classList.contains("active")) {
       el.classList.add("active");
       getHTTP(el.href);
     }
