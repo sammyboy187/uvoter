@@ -11,3 +11,6 @@ Der upvote Befehl wird nur gesendet wenn man noch nicht abgestimmt hat. Das heis
 
 ## uvoter2.js
 Ganz ähnlich zu uvoter.js. Aber es votet alle Posts auf einer Seite down wenn man noch nicht selbst abgestimmt hat. Dafür gibt es einem alten Beitrag mit einer einstellbaren Differenz einen upvote um das Kontingent nicht zu erschöpfen.
+
+## uvoter3.js
+Auch ein Greasemonkey skript. Es hat am Anfang die Variablen upvotelist und downvotelist. Da kann man benutzernamen von benutzern eintragen die mann immer automatisch rauf bzw. runtervoten möchte. Das Skript macht das dann von alleine. Alle anderen Benutzer bleuben unangetastet. Wenn man runtervotet wird automatisch ein alter Post raufgevotet um das downvotekonto nicht zu überziehen.
