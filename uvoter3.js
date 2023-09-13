@@ -5,7 +5,7 @@
 // @include  https://www.mikrocontroller.net/topic/*
 // ==/UserScript==
 
-var upvotelist = ["sammyboy387",]; //Hier Benutzernamen eintragen die immer raufgevotet werden sollen
+var upvotelist = ["sammyboy587",]; //Hier Benutzernamen eintragen die immer raufgevotet werden sollen
 var downvotelist = ["stefanus", "alecxs"]; //Hier Benutzernamen eintragen die immer runtergevotet werden sollen
 var upvoteoffset = 735066; //Beitrag minus die aktuelle id der als Ausgleich upgevotet werden soll
 
